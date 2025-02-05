@@ -1,0 +1,18 @@
+{
+  "name": "ai-card-creator",
+  "version": "1.0.0",
+  "description": "My personal AI Card creator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "electron ./app.js"
+  },
+  "keywords": [
+    "ai"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^23.2.1"
+  }
+}

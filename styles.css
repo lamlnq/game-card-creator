@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.app-container{
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+.card-list {
+    width: 600px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.card-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.card-list li{
+    display: inline-block;
+    height: 358px;
+    width: 256px;
+    margin: 0.5rem;
+}
+.card-list li img{
+    width: 100%;
+}
+.card-list li span{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+.preview{
+    width: 512px;
+    height: 768px;
+}
+.preview canvas{
+    width: 512px;
+    height: 717px;
+}
+.control{
+    margin-left: 1rem;
+}
+.control-line{
+    margin-top: 1rem
+}
+.control-line.between{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#cardViewer{
+    overflow: hidden;
+}
